@@ -1,0 +1,143 @@
+<!-- Document -->
+<!DOCTYPE html>
+<!-- HTML root element -->
+<html>
+<!-- Head -->
+<head>
+	<!-- Title -->
+	<title>HTML Detail</title>
+	<!-- Style -->
+	<style>
+		#heading1 {
+			color: red;
+		}
+		#p1 {
+			color: rgb(255, 0, 210);
+		}
+		.c1 {
+			color: red;
+		}
+		table, tr, th, td {
+			border: 1px solid black;
+		}
+	</style>
+	<!-- Link (To connect an external resource) -->
+	<link rel="stylesheet" href="">
+	<!-- Meta (used by browsers and search engines) -->
+	<meta charset="utf-8">
+	<meta name="HTML Detail" content="Basics of HTML">
+	<meta name="author" content="Mir Md. kawsur">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Script (javascript) -->
+	<script>
+		function changeText() {
+			document.getElementById("heading1").innerHTML = "HTML Detail";
+		}
+	</script>
+	<!-- Base (There can be either href or target, only one base tag in a html document)-->
+	<base href="/">
+	<!-- <base href="https://www.aiub.edu"> -->
+</head>
+<!-- Body -->
+<body>
+	<!-- Start: Used to understand head tag entities -->
+	<h1 id="heading1">HTML Basics</h1>
+	<button onclick="changeText()">Click me!</button>
+	<a href="abc.png">Show Image</a>
+
+	<!-- End: Used to understand head tag entities -->
+
+	<!-- Start: body -->
+	<h1>HTML Detail 1</h1>
+	<h2>HTML Detail 2</h2>
+	<h3>HTML Detail 3</h3>
+	<h4>HTML Detail 4</h4>
+	<h5>HTML Detail 5</h5>
+	<h6>HTML Detail 6</h6>
+	<!-- End: body -->
+
+	<!-- break -->
+	<br>
+
+	<!-- horizontal line -->
+	<hr>
+
+	<!-- Paragraph -->
+	<p>This is a paragraph 1</p>
+
+	<!-- Inline CSS -->
+	<p style="font-size: 32px; font-weight: bold;">This is a paragraph 2</p>
+	<!-- Id vs Class -->
+	<p id="p1">This is a paragraph 3</p>
+	<p class="c1">This is a paragraph 4</p>
+	<p class="c1">This is a paragraph 5</p>
+
+	<!-- Block element vs Inline element -->
+
+	<div>Block element 1</div>
+	<div>Block element 2</div>
+	<div>Block element 3</div>
+
+	<br>
+
+	<span>Inline element 1</span>
+	<span>Inline element 2</span>
+	<span>Inline element 3</span>
+
+	<!-- More inline elements (<a>, <em>, <select> , <textarea>, <span>, <img>, <map>, <button>, <br>, <i>, <stong>, <b>, ...) -->
+
+	<!-- inline element can not contain block element -->
+
+	<br>
+
+	<!-- hyperlink -->
+	<a href="https://www.aiub.edu" target="_blank">AIUB Website</a>
+
+	<!-- images -->
+	<img src="../aiu-logo.png" alt="aiub logo">
+
+	<!-- tables -->
+	<table>
+		<tr>
+			<th>Sl#</th>
+			<th>Student Id</th>
+			<th>Student Name</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>20-20202-2</td>
+			<td>Abc</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>20-20203-2</td>
+			<td>Def</td>
+		</tr>
+	</table>
+
+	<!-- List -->
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+	</ul>
+
+	<ol>
+		<li>a</li>
+		<li>b</li>
+		<li>c</li>
+	</ol>
+
+	<dl>
+		<dt>Coffee</dt>
+		<dd>It is the best coffee.</dd>
+		<dt>Tea</dt>
+		<dd>It is the best tea.</dd>
+	</dl>
+
+	<!-- File path 
+		(absolute path [https://localhost/a1/user.png]), (relative path [user.png, ../user.png, /user.png])-->
+	<!-- Best practice (relative path) -->
+</body>
+</html>
+<!-- End of the documen
